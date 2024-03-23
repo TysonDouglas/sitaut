@@ -1,0 +1,81 @@
+{
+  "name": "sitaut",
+  "version": "1.0.0",
+  "description": "asr2js and js2asr converter android string resource utils",
+  "type": "module",
+  "main": "./cjs/index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "require": "./cjs/index.js",
+      "default": "./esm/index.js"
+    },
+    "./asr2js": {
+      "require": "./cjs/asr2js.js",
+      "default": "./esm/asr2js.js"
+    },
+    "./js2asr": {
+      "require": "./cjs/js2asr.js",
+      "default": "./esm/js2asr.js"
+    },
+    "./cjs": {
+      "default": "./cjs/index.js"
+    },
+    "./cjs/asr2js": {
+      "default": "./cjs/asr2js.js"
+    },
+    "./cjs/js2asr": {
+      "default": "./cjs/js2asr.js"
+    },
+    "./esm": {
+      "default": "./esm/index.js"
+    },
+    "./esm/asr2js": {
+      "default": "./esm/asr2js.js"
+    },
+    "./esm/js2asr": {
+      "default": "./esm/js2asr.js"
+    }
+  },
+  "module": "./esm/index.js",
+  "dependencies": {
+    "rdotjson": "1.0.3",
+    "xml-js": "1.6.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.19.3",
+    "@babel/core": "7.20.2",
+    "@babel/preset-env": "7.20.2",
+    "babel-plugin-add-module-exports": "1.0.4",
+    "browserify": "17.0.0",
+    "eslint": "8.28.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.5.1",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-require-path-exists": "1.1.9",
+    "eslint-plugin-standard": "4.1.0",
+    "expect.js": "0.3.1",
+    "mocha": "10.1.0",
+    "uglify-js": "3.17.4"
+  },
+  "keywords": [
+    "android",
+    "corrupti",
+    "iste",
+    "necessitatibus",
+    "earum",
+    "non",
+    "converter"
+  ],
+  "author": "CliftonCummerata",
+  "license": "MIT",
+  "homepage": "https://github.com/TysonDouglas/sitaut.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TysonDouglas/sitaut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TysonDouglas/sitaut.git/issues"
+  }
+}
